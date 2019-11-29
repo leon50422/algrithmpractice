@@ -1,4 +1,4 @@
-public class Solution {
+public class Day1 {
     public int removeDuplicates(int[] nums){
         int retVal = 0;
         int current = Integer.MIN_VALUE;
@@ -27,7 +27,7 @@ public class Solution {
     }
 
     public static void main(String[] args){
-        Solution s = new Solution();
+        Day1 s = new Day1();
         int[] array = new int[]{1,1,2,2,3,4,5,5,5,5,6,6,7,8,9,10};
         int count = s.removeDuplicates(array);
         for (int i=0; i< count; i++){
